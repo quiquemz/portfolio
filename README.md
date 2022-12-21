@@ -10,7 +10,7 @@ To view my website, simply access the URL provided in the "GitHub Pages" section
 
 - HTML
 - CSS
-- JavaScript (optional)
+- JavaScript (in progress)
 
 ## Authors
 
