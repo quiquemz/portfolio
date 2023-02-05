@@ -3,7 +3,6 @@ import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
@@ -51,7 +50,7 @@ const Main = () => {
             {/* <StackProgress /> */}
             <Education />
             <WorkExperience />
-            <Projects />
+            {/* <Projects /> */}
             {/* <StartupProject /> */}
             {/* <Achievement /> */}
             {/* <Blogs /> */}

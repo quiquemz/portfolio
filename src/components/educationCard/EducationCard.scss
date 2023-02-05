@@ -82,6 +82,11 @@
 
 .education-text-bullets > ul {
   margin-top: 0.5rem;
+  padding-left: 20px;
+}
+
+.education-text-bullets > ul > li {
+  display: block;
 }
 
 /* Media Query */
@@ -139,5 +144,6 @@
   .education-text-bullets > ul {
     max-width: 80%;
     margin: auto;
+    padding: 0;
   }
 }

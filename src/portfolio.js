@@ -23,9 +23,9 @@ const greeting = {
   username: "EM",
   title: "Hi, I'm Quique",
   subTitle: emoji(
-    "I'm a Software Engineer with a passion for designing innovative solutions and streamlining processes through technology and data, with a focus on Big Data, AI, and Machine Learning"
+    "I'm a Software Engineer with a passion for designing innovative solutions and streamlining processes through technology and data, with a focus on Big Data, AI, and Machine Learning."
   ),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "https://docs.google.com/document/d/1wqYaxuQlNT4ROfjA1DffCUvPQg72BsIt/edit?usp=sharing&ouid=114614159031807590682&rtpof=true&sd=true", // Set to empty to hide the button
   profilePicture: require("./assets/images/profile-image.jpeg"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -107,7 +107,10 @@ const educationInfo = {
       duration: "August 2022 - June 2023",
       desc: "Relevant Courses:",
       descBullets: [
-        
+        "Artificial Intelligence 1 & 2",
+        "Competing with AI and Cloud",
+        "Data-Driven Transformation",
+        "Thinking with Data",
       ]
     },
     {
@@ -237,8 +240,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
