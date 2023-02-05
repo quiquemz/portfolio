@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.15738865.css",
-    "main.js": "/portfolio/static/js/main.758abd60.js",
+    "main.css": "/portfolio/static/css/main.dee4ff72.css",
+    "main.js": "/portfolio/static/js/main.ee070c8e.js",
     "static/css/241.2a2e49cb.chunk.css": "/portfolio/static/css/241.2a2e49cb.chunk.css",
     "static/js/241.e202c078.chunk.js": "/portfolio/static/js/241.e202c078.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -20,13 +20,13 @@
     "static/media/saayaHealthLogo.webp": "/portfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "static/media/nextuLogo.webp": "/portfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/portfolio/index.html",
-    "main.15738865.css.map": "/portfolio/static/css/main.15738865.css.map",
-    "main.758abd60.js.map": "/portfolio/static/js/main.758abd60.js.map",
+    "main.dee4ff72.css.map": "/portfolio/static/css/main.dee4ff72.css.map",
+    "main.ee070c8e.js.map": "/portfolio/static/js/main.ee070c8e.js.map",
     "241.2a2e49cb.chunk.css.map": "/portfolio/static/css/241.2a2e49cb.chunk.css.map",
     "241.e202c078.chunk.js.map": "/portfolio/static/js/241.e202c078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15738865.css",
-    "static/js/main.758abd60.js"
+    "static/css/main.dee4ff72.css",
+    "static/js/main.ee070c8e.js"
   ]
 }
