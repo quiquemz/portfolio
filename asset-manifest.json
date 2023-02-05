@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d95e024d.css",
+    "main.js": "/portfolio/static/js/main.4c1cfdfa.js",
+    "static/css/241.2a2e49cb.chunk.css": "/portfolio/static/css/241.2a2e49cb.chunk.css",
+    "static/js/241.a8544736.chunk.js": "/portfolio/static/js/241.a8544736.chunk.js",
+    "static/css/64.76dfbfe4.chunk.css": "/portfolio/static/css/64.76dfbfe4.chunk.css",
+    "static/js/64.a2201178.chunk.js": "/portfolio/static/js/64.a2201178.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/ucsdLogo.png": "/portfolio/static/media/ucsdLogo.f00e635235e8cf36dfe0.png",
+    "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/saulLogo.png": "/portfolio/static/media/saulLogo.1148665464fdf525559a.png",
+    "static/media/macysLogo.jpg": "/portfolio/static/media/macysLogo.e8c9cff066df00576201.jpg",
+    "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/xumakLogo.jpg": "/portfolio/static/media/xumakLogo.282c7690b5d261897db9.jpg",
+    "static/media/googleAssistantLogo.webp": "/portfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/gsLogo.jpeg": "/portfolio/static/media/gsLogo.aa52ed9f1243363c8981.jpeg",
+    "static/media/codeInLogo.webp": "/portfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
+    "static/media/qualcommLogo.jpg": "/portfolio/static/media/qualcommLogo.4a05c72c77bf114512c0.jpg",
+    "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/pwaLogo.webp": "/portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "static/media/saayaHealthLogo.webp": "/portfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/portfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "index.html": "/portfolio/index.html",
+    "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.d95e024d.css.map": "/portfolio/static/css/main.d95e024d.css.map",
+    "main.4c1cfdfa.js.map": "/portfolio/static/js/main.4c1cfdfa.js.map",
+    "241.2a2e49cb.chunk.css.map": "/portfolio/static/css/241.2a2e49cb.chunk.css.map",
+    "241.a8544736.chunk.js.map": "/portfolio/static/js/241.a8544736.chunk.js.map",
+    "64.76dfbfe4.chunk.css.map": "/portfolio/static/css/64.76dfbfe4.chunk.css.map",
+    "64.a2201178.chunk.js.map": "/portfolio/static/js/64.a2201178.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d95e024d.css",
+    "static/js/main.4c1cfdfa.js"
+  ]
+}
