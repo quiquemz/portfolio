@@ -18,34 +18,6 @@ const GithubProfileImage = lazy(() =>
 );
 
 export default function Greeting() {
-  const [prof, setrepo] = useState([]);
-  function setProfileFunction(array) {
-    setrepo(array);
-  }
-
-  useEffect(() => {
-    if (openSource.showGithubProfile === "true") {
-      const getProfileData = () => {
-        fetch("/profile.json")
-          .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
-          })
-          .then(response => {
-            setProfileFunction(response.data.user);
-          })
-          .catch(function (error) {
-            console.error(
-              `${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
-            );
-            setProfileFunction("Error");
-            openSource.showGithubProfile = "false";
-          });
-      };
-      getProfileData();
-    }
-  }, []);
 
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
@@ -88,16 +60,8 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
           <Suspense fallback={renderLoader()}>
-            <GithubProfileImage prof={prof} key={prof.id} />
+            <GithubProfileImage greeting={greeting} />
           </Suspense>
-            {/* {illustration.animated ? (
-              <DisplayLottie animationData={landingWink} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )} */}
           </div>
         </div>
       </div>

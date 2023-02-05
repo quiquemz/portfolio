@@ -26,6 +26,7 @@ const greeting = {
     "I'm a Software Engineer with a passion for designing innovative solutions and streamlining processes through technology and data, with a focus on Big Data, AI, and Machine Learning"
   ),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  profilePicture: require("./assets/images/profile-image.jpeg"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

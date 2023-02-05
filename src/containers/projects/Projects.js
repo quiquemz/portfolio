@@ -4,6 +4,7 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -39,6 +40,7 @@ export default function Projects() {
   function setrepoFunction(array) {
     setrepo(array);
   }
+
   if (
     !(typeof repo === "string" || repo instanceof String) &&
     openSource.display
