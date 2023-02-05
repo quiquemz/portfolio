@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0dfb04da.css",
-    "main.js": "/portfolio/static/js/main.b9035c6f.js",
+    "main.css": "/portfolio/static/css/main.15738865.css",
+    "main.js": "/portfolio/static/js/main.9a505d38.js",
     "static/css/241.2a2e49cb.chunk.css": "/portfolio/static/css/241.2a2e49cb.chunk.css",
     "static/js/241.e202c078.chunk.js": "/portfolio/static/js/241.e202c078.chunk.js",
-    "static/css/64.76dfbfe4.chunk.css": "/portfolio/static/css/64.76dfbfe4.chunk.css",
-    "static/js/64.05ba30d3.chunk.js": "/portfolio/static/js/64.05ba30d3.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/ucsdLogo.png": "/portfolio/static/media/ucsdLogo.f00e635235e8cf36dfe0.png",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -22,15 +20,13 @@
     "static/media/saayaHealthLogo.webp": "/portfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "static/media/nextuLogo.webp": "/portfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/portfolio/index.html",
-    "main.0dfb04da.css.map": "/portfolio/static/css/main.0dfb04da.css.map",
-    "main.b9035c6f.js.map": "/portfolio/static/js/main.b9035c6f.js.map",
+    "main.15738865.css.map": "/portfolio/static/css/main.15738865.css.map",
+    "main.9a505d38.js.map": "/portfolio/static/js/main.9a505d38.js.map",
     "241.2a2e49cb.chunk.css.map": "/portfolio/static/css/241.2a2e49cb.chunk.css.map",
-    "241.e202c078.chunk.js.map": "/portfolio/static/js/241.e202c078.chunk.js.map",
-    "64.76dfbfe4.chunk.css.map": "/portfolio/static/css/64.76dfbfe4.chunk.css.map",
-    "64.05ba30d3.chunk.js.map": "/portfolio/static/js/64.05ba30d3.chunk.js.map"
+    "241.e202c078.chunk.js.map": "/portfolio/static/js/241.e202c078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dfb04da.css",
-    "static/js/main.b9035c6f.js"
+    "static/css/main.15738865.css",
+    "static/js/main.9a505d38.js"
   ]
 }
