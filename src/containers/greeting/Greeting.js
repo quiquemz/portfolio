@@ -1,10 +1,7 @@
-import React, {useContext, lazy, Suspense, useState, useEffect} from "react";
-import {openSource} from "../../portfolio";
+import React, {useContext, lazy, Suspense} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-// import landingWink from "../../assets/lottie/landingWink";
-// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
