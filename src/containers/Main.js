@@ -48,10 +48,10 @@ const Main = () => {
             <Greeting />
             <Skills />
             <AreasOfInterest />
-            {/* <StackProgress /> */}
-            <Education />
-            <WorkExperience />
             <Projects />
+            {/* <StackProgress /> */}
+            <WorkExperience />
+            <Education />
             {/* <StartupProject /> */}
             {/* <Achievement /> */}
             {/* <Blogs /> */}
