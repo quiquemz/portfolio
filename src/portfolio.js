@@ -23,9 +23,9 @@ const greeting = {
   username: "EM",
   title: "Hi, I'm Quique",
   subTitle: emoji(
-    "I'm a Software Engineer with a passion for designing innovative solutions and streamlining processes through technology and data, with a focus on Big Data, AI, and Machine Learning."
+    "I'm a Full Stack Engineer with a passion for designing innovative solutions and streamlining processes through technology and data, specializing in building client-facing applications."
   ),
-  resumeLink: "https://docs.google.com/document/d/1wqYaxuQlNT4ROfjA1DffCUvPQg72BsIt/edit?usp=sharing&ouid=114614159031807590682&rtpof=true&sd=true", // Set to empty to hide the button
+  resumeLink: "https://docs.google.com/document/d/1HERJzUjFIy--UpElELpiFXHJiXOvktTKdEZ_TEQpung/edit?usp=sharing", // Set to empty to hide the button
   profilePicture: require("./assets/images/profile-image.jpeg"),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -90,6 +90,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fa-brands fa-docker"
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fa-brands fa-angular"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -159,19 +163,24 @@ const areasOfInterest = {
   display: true,
   areas: [
     {
-      name: 'Big Data',
-      description: 'Proficient in using Delta to build efficient and scalable Lakehouses for big data processing, analysis, and storage',
-      fontAwesomeClassname: 'fa-solid fa-water'
-    },
-    {
-      name: 'Data Visualization',
-      description: 'I love creating interactive and intuitive visualizations to effectively communicate data insights',
-      fontAwesomeClassname: 'fa-solid fa-chart-simple'
-    },
-    {
       name: 'Cloud Computing',
-      description: 'I have expertise in utilizing cloud-based solutions for data storage, model training, and deployment',
-      fontAwesomeClassname: "fa-solid fa-globe"
+      description: 'I have expertise in utilizing cloud-based solutions for application deployment, data storage, and scalability',
+      fontAwesomeClassname: 'fa-solid fa-globe'
+    },
+    {
+      name: 'Frontend',
+      description: 'I have a solid understanding of frontend technologies and design principles, with a focus on creating user-friendly and responsive interfaces',
+      fontAwesomeClassname: 'fa-brands fa-html5'
+    },
+    {
+      name: 'Backend Development',
+      description: 'I specialize in designing and maintaining efficient and scalable backend systems using C# and modern technologies',
+      fontAwesomeClassname: 'fa-solid fa-server'
+    },
+    {
+      name: 'DevOps',
+      description: 'I have experience in implementing efficient development and operational processes to streamline software delivery',
+      fontAwesomeClassname: 'fa-solid fa-infinity'
     },
     {
       name: 'Machine Learning',
@@ -179,17 +188,11 @@ const areasOfInterest = {
       fontAwesomeClassname: 'fa-solid fa-graduation-cap'
     },
     {
-      name: 'Frontend',
-      description: ' I have a solid understanding of frontend technologies and design principles, with a focus on creating user-friendly and responsive interfaces',
-      fontAwesomeClassname: 'fa-brands fa-html5'
-    },
-    
-    {
-      name: 'DevOps',
-      description: 'I have experience in implementing efficient development and operational processes to streamline software delivery',
-      fontAwesomeClassname: 'fa-solid fa-infinity'
-    },
-  ]
+      name: 'Agile Development',
+      description: 'I actively participate in Agile methodologies, including Scrum and Kanban, to ensure collaborative and efficient project delivery',
+      fontAwesomeClassname: 'fa-solid fa-sync'
+    }
+  ] 
 }
 
 // Work experience section
@@ -198,11 +201,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "B. Braun Group",
+      companylogo: require("./assets/images/bbraunLogo.png"),
+      date: "Sep 2023 – Present",
+      desc: "Develop and maintain backend systems using C#, support client-facing teams, and ensure data integration with PDMS using FHIR. Contribute to frontend development with Angular and implement infrastructure pipelines with Terraform."
+    },
+    {
       role: "Technology Innovation Leader",
       company: "Saúl",
       companylogo: require("./assets/images/saulLogo.png"),
       date: "Apr 2020 – Jul 2022",
-      desc: "Leveraged my knowledge of software analysis and expertise in Lakehouse technology to optimize core processes and store, process, and analyze large-scale data sets. Implemented best practices in data collection and software development, and executed a data-driven strategy to ensure success.",
+      desc: "Optimized core processes and analyzed large-scale data sets using Lakehouse technology. Implemented best practices in data collection and software development, ensuring success through a data-driven strategy.",
       descBullets: []
     },
     {
@@ -210,30 +220,30 @@ const workExperiences = {
       company: "Macy's",
       companylogo: require("./assets/images/macysLogo.jpg"),
       date: "Mar 2019 – Apr 2020",
-      desc: "As Full Stack Engineer at Macy's, I worked together with Merchandising teams maintaining in-house platforms to design smart events and promotions, keep track of inventory, and category management."
+      desc: "Collaborated with Merchandising teams to maintain in-house platforms for events, promotions, inventory, and category management."
     },
     {
       role: "Software Engineer Intern",
       company: "Qualcomm",
       companylogo: require("./assets/images/qualcommLogo.jpg"),
       date: "Jul 2018 – Sep 2018",
-      desc: "As Software Engineer Intern at Qualcomm, I was responsible for writing reliable codes, implementing software architectural improvements, user-facing features or fixing defects and optimizing the code for maximum performance."
+      desc: "Wrote reliable code, implemented software architectural improvements, and optimized user-facing features for maximum performance."
     },
     {
       role: "Summer Technology Analyst",
       company: "Goldman Sachs",
       companylogo: require("./assets/images/gsLogo.jpeg"),
       date: "Jun 2016 – Aug 2016",
-      desc: "Developed a web application for external clients, collaborating in both sides: front-end and back-end. Used React.js for front-end design and Redux to manage the state of the application. For the backend, we create a REST API based on Java."
+      desc: "Developed a web application using React.js and Redux for front-end, and created a REST API based on Java for the backend."
     },
     {
       role: "Summer Technology Analyst",
       company: "XumaK",
       companylogo: require("./assets/images/xumakLogo.jpg"),
       date: "Aug 2015 – Sep 2015",
-      desc: "Developed a web application for external clients, collaborating in both sides: front-end and back-end. Used React.js for front-end design and Redux to manage the state of the application. For the backend, we create a REST API based on Java."
-    },
-  ]
+      desc: "Developed a web application using React.js and Redux for front-end, and created a REST API based on Java for the backend."
+    }
+  ]  
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
